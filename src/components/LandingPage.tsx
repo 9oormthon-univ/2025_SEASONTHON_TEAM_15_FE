@@ -83,13 +83,13 @@ const LandingPage: React.FC = () => {
     ];
 
     return (
-        <div 
+        <div
             className="landing-page"
             style={{
                 backgroundImage: `url(${backgroundImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat'
+                backgroundRepeat: 'no-repeat',
             }}
         >
             <div className="status-bar">
