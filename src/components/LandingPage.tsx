@@ -1,5 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
+import backgroundImage from '../assets/images/배경.png';
 
 interface GoalCardProps {
     title: string;
@@ -82,7 +83,15 @@ const LandingPage: React.FC = () => {
     ];
 
     return (
-        <div className="landing-page">
+        <div 
+            className="landing-page"
+            style={{
+                backgroundImage: `url(${backgroundImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'
+            }}
+        >
             <div className="status-bar">
                 <div className="status-bar-content">
                     <div className="time">9:41</div>
