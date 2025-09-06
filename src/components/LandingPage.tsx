@@ -56,28 +56,28 @@ const LandingPage: React.FC = () => {
             goal: '칭찬 하기',
             image: '/해.png',
             rotation: 8.5,
-            position: { left: '4px', top: '200px' },
+            position: { left: '4px', top: '170px' },
         },
         {
             title: '엄마의 복',
             goal: '잔소리 한 번 참기',
             image: '/아트보드 5 2.png',
             rotation: 2.21,
-            position: { left: '183px', top: '270px' },
+            position: { left: '183px', top: '240px' },
         },
         {
             title: '동생의 종',
             goal: '집에 일찍 들어오기',
             image: '/종.png',
             rotation: -12.86,
-            position: { left: '-23px', top: '360px' },
+            position: { left: '-23px', top: '330px' },
         },
         {
             title: '코알라의 연',
             goal: '영어 공부하기',
             image: '/연.png',
             rotation: 6.58,
-            position: { left: '176px', top: '470px' },
+            position: { left: '176px', top: '440px' },
             showMore: false,
         },
     ];
@@ -94,7 +94,6 @@ const LandingPage: React.FC = () => {
         >
             <div className="status-bar">
                 <div className="status-bar-content">
-                    <div className="time">9:41</div>
                     <div className="dynamic-island"></div>
                     <div className="levels">
                         <div className="cellular"></div>
